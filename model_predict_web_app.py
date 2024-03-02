@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('D:/pythonn alll/Mice Protein Expression/ml_model_DPL/DPL_spyder/trained_model3.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model3.sav', 'rb'))
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="ChatBot powered by Gemini-Pro",
