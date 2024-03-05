@@ -4,7 +4,6 @@ import streamlit as st
 from dotenv import load_dotenv
 import numpy as np
 import pickle
-import streamlit as st
 
 loaded_model = pickle.load(open('trained_model3.sav', 'rb'))
 # Configure Streamlit page settings
